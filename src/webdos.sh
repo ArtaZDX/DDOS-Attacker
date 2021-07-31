@@ -22,7 +22,7 @@ echo -e "$Cafe##   \e[31m ███▀▀███  ██▀▀▀▀▀▀  �
 echo -e "$Cafe##    ███  ███  ▀██▄▄▄▄█  ███▄▄██▀  ██▄▄▄██    ██▄▄██   █▄▄▄▄▄██         $Cafe   ##" 
 echo -e  "$Cafe##   \e[31m▀▀▀  ▀▀▀    ▀▀▀▀▀   ▀▀ ▀▀▀    ▀▀▀▀▀       ▀▀▀▀     ▀▀▀▀▀▀      $Cafe        ##"
 echo -e "$Cafe##############################################################################$nc"
-echo -e "##$red-------------MOST POWERFULL WEBSITE DDOS ATTACKER------------BY Arta$nc       ##"
+echo -e "##$red-------------MOST POWERFULL WEBSITE DDOS ATTACKER------------BY Arta$nc------##"
 echo -e "$Cafe##############################################################################$nc"
 echo -e "$cyan Author :-Arta moghaddasi$nc"
 
@@ -33,7 +33,7 @@ echo -e "$cyan Author :-Arta moghaddasi$nc"
 if xterm -version &>/dev/null; then
     echo -e "$purple xterm is installed ✅ $nc"
 else
-echo -e "\e[94mXTERM Is Installing.......\e[0m"
+echo -e "$Cafe XTERM Is Installing....... $nc"
 progressbar()
 {
     bar="##################################################"
@@ -54,13 +54,13 @@ do
 done 
 # kill the spinner task
 kill $pid > /dev/null 2>&1
-echo $'\n*\n*\n\e[97mXTERM Successfully Installed on Your OS\e[0m'
+echo $"$purple XTERM Successfully Installed on Your OS ✅ $nc"
 fi  
 if command -v python3 &>/dev/null; then
     echo -e "$purple Python 3 is installed ✅$nc"
 else
 
-echo -e "\e[94mPython3 Is Installing.......\e[0m"
+echo -e "$Cafe Python3 Is Installing....... $nc"
 progressbar()
 {
     bar="##################################################"
@@ -81,11 +81,11 @@ do
 done  
 # kill the spinner task
 kill $pid > /dev/null 2>&1 
-echo $'\n*\n*\n\e[97mPython3 Successfully Installed on Your OS\e[0m'
+echo $"$purple Python3 Successfully Installed on Your OS ✅ $nc"
 fi
-read -p $'\033[0;37mEnter The Website\e[0m     :- ' web
-read -p $'\033[0;37mEnter The Port  \e[0m      :- ' port
-read -p $'\033[0;37mEnter The Thread[133]\e[0m :- ' thread
+read -p $"$green Enter The Website     :- $nc" web
+read -p $"$green Enter The Port      :- $nc" port
+read -p $"$green Enter The Thread :- $nc" thread
 
 echo "##################################################################"
 echo -e "#$red NO.$nc|$red   MODE $nc                                                   #"
