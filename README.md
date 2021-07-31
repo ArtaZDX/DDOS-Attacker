@@ -22,6 +22,11 @@ RedHat, Fedora : sudo dnf install xterm
 Arch, Manjaro : sudo pacman -S xterm
 ```
 
+```bash
+chmod +x webdos.sh
+./webdos.sh
+```
+
 ## Contributors
 
 - Arta moghaddasi <arta.moghaddasi@gmail.com>
